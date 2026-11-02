@@ -1,0 +1,315 @@
+/* ==========================================
+   ESTILOS GENERALES Y LOGO
+   ========================================== */
+
+.digitalcircuslogo {
+    width: 50%;
+    /* Define que el logo ocupe la mitad del ancho de la pantalla */
+    margin: auto;
+    /* MOVIMIENTO: Centra el logo horizontalmente de forma automática */
+}
+
+.cuadro {
+    width: 60%;
+    /* Ancho de la caja de bienvenida principal */
+    color: black;
+    /* Color del texto dentro del cuadro */
+    background-color: rgb(225, 240, 184);
+    /* Color de fondo verde claro */
+    border: 5px double;
+    /* Borde de línea doble de 5px */
+    margin-left: auto;
+    /* MOVIMIENTO: Empuja y ayuda a centrar el cuadro por la izquierda */
+    margin-right: auto;
+    /* MOVIMIENTO: Empuja y ayuda a centrar el cuadro por la derecha */
+    margin-top: 20px;
+    /* MOVIMIENTO: Separa el cuadro hacia abajo respecto a los elementos superiores */
+    margin-bottom: 30px;
+    /* MOVIMIENTO: Deja espacio libre debajo del cuadro principal */
+}
+
+.zoobletexto {
+    display: block;
+    /* Convierte el texto/imagen en bloque para que respete márgenes */
+    width: 30%;
+    /* Ocupa el 30% del contenedor */
+    height: auto;
+    /* Altura automática para mantener proporción */
+    margin: auto;
+    /* MOVIMIENTO: Centra el elemento automáticamente */
+}
+
+
+/* ==========================================
+   PRIMERA FILA (Pomni, Jax, Kinger)
+   ========================================== */
+
+.pomnitexto {
+    width: 30%;
+    /* Ancho exacto para que entren 3 cuadros por fila (30% x 3) */
+    background-color: rgb(128, 128, 214);
+    /* Fondo morado para Pomni */
+    border: 3px solid;
+    /* Borde sólido de 3px */
+    border-radius: 5%;
+    /* Esquinas ligeramente redondeadas */
+    float: left;
+    /* MOVIMIENTO DE CAJA: Saca al cuadro del flujo normal y lo pega a la izquierda para permitir que otros queden a su lado */
+    margin-left: 3.3%;
+    /* MOVIMIENTO DE CAJA: Margen izquierdo simétrico que separa el cuadro del borde de la pantalla / otros cuadros */
+    padding: 15px;
+    /* Espacio interno para que el texto no pegue al borde */
+    box-sizing: border-box;
+    /* Asegura que el padding no expanda el ancho del 30% */
+}
+
+.pomniimagen {
+    width: 50%;
+    /* Ancho de la imagen de Pomni respecto a su tarjeta */
+    height: auto;
+    /* Mantiene la proporción de la imagen */
+    margin: auto;
+    /* MOVIMIENTO: Centra la imagen dentro de su tarjeta */
+    display: block;
+    /* Permite aplicar margin: auto correctamente */
+}
+
+.jaxinformacion {
+    width: 30%;
+    /* Ancho del 30% para compartir fila */
+    background-color: rgb(221, 44, 44);
+    /* Fondo rojo para Jax */
+    border: 3px solid;
+    /* Borde sólido */
+    border-radius: 5%;
+    /* Esquinas redondeadas */
+    float: left;
+    /* MOVIMIENTO DE CAJA: Flota a la izquierda para colocarse justo al lado del cuadro anterior */
+    margin-left: 3.3%;
+    /* MOVIMIENTO DE CAJA: Distancia de separación exacta respecto al cuadro de Pomni */
+    padding: 15px;
+    /* Espacio interno */
+    box-sizing: border-box;
+    /* Mantiene las medidas exactas */
+}
+
+.jaximagen {
+    width: 60%;
+    /* Ancho de la imagen de Jax */
+    height: auto;
+    /* Altura proporcional */
+    margin: auto;
+    /* MOVIMIENTO: Centra la imagen */
+    display: block;
+    /* Comportamiento de bloque */
+}
+
+.kingerinformacion {
+    width: 30%;
+    /* Ancho del 30% para cerrar la primera fila */
+    background-color: rgb(223, 204, 96);
+    /* Fondo amarillo para Kinger */
+    border: 3px solid;
+    /* Borde sólido */
+    border-radius: 5%;
+    /* Esquinas redondeadas */
+    float: left;
+    /* MOVIMIENTO DE CAJA: Flota a la izquierda para ocupar el tercer lugar de la primera fila */
+    margin-left: 3.3%;
+    /* MOVIMIENTO DE CAJA: Distancia de separación exacta respecto al cuadro de Jax */
+    padding: 15px;
+    /* Espacio interno */
+    box-sizing: border-box;
+    /* Mantiene las medidas exactas */
+}
+
+.kingerimagen {
+    width: 80%;
+    /* Ancho de la imagen de Kinger */
+    height: auto;
+    /* Altura proporcional */
+    margin: auto;
+    /* MOVIMIENTO: Centra la imagen */
+    display: block;
+    /* Comportamiento de bloque */
+}
+
+
+/* ==========================================
+   SEGUNDA FILA (Ragatha, Zooble, Gangle)
+   ========================================== */
+
+.ragathainformacion {
+    width: 30%;
+    /* Ancho del 30% */
+    background-color: rgb(35, 195, 235);
+    /* Fondo azul claro para Ragatha */
+    border: 3px solid;
+    /* Borde sólido */
+    border-radius: 5%;
+    /* Esquinas redondeadas */
+    float: left;
+    /* MOVIMIENTO DE CAJA: Flota a la izquierda */
+    clear: left;
+    /* MOVIMIENTO DE CAJA: ROMPE la fila anterior y obliga obligatoriamente a este cuadro a bajar y reiniciar la nueva fila a la izquierda */
+    margin-left: 3.3%;
+    /* MOVIMIENTO DE CAJA: Mantiene la simetría izquierda con la primera fila */
+    margin-top: 30px;
+    /* MOVIMIENTO DE CAJA: Separa el cuadro verticalmente hacia abajo respecto a la fila superior */
+    padding: 15px;
+    /* Espacio interno */
+    box-sizing: border-box;
+    /* Medidas exactas */
+}
+
+.ragathaimagen {
+    width: 70%;
+    /* Ancho de la imagen de Ragatha */
+    height: auto;
+    /* Altura proporcional */
+    margin: auto;
+    /* MOVIMIENTO: Centra la imagen */
+    display: block;
+    /* Comportamiento de bloque */
+}
+
+.zoobleinformacion {
+    width: 30%;
+    /* Ancho del 30% */
+    background-color: rgb(255, 230, 0);
+    /* Fondo amarillo brillante para Zooble */
+    border: 3px solid;
+    /* Borde sólido */
+    border-radius: 5%;
+    /* Esquinas redondeadas */
+    float: left;
+    /* MOVIMIENTO DE CAJA: Flota a la izquierda para colocarse en el centro de la segunda fila */
+    margin-left: 3.3%;
+    /* MOVIMIENTO DE CAJA: Distancia de separación uniforme con Ragatha */
+    margin-top: 30px;
+    /* MOVIMIENTO DE CAJA: Alinea verticalmente el cuadro en la segunda fila */
+    padding: 15px;
+    /* Espacio interno */
+    box-sizing: border-box;
+    /* Medidas exactas */
+}
+
+.zooblelimagen {
+    width: 100%;
+    /* Ocupa todo el ancho de su tarjeta */
+    height: auto;
+    /* Altura proporcional */
+    margin: auto;
+    /* MOVIMIENTO: Centra la imagen */
+    display: block;
+    /* Comportamiento de bloque */
+}
+
+.gangleinformacion {
+    width: 30%;
+    /* Ancho del 30% para cerrar la segunda fila */
+    background-color: rgb(235, 35, 175);
+    /* Fondo rosa para Gangle */
+    border: 3px solid;
+    /* Borde sólido */
+    border-radius: 5%;
+    /* Esquinas redondeadas */
+    float: left;
+    /* MOVIMIENTO DE CAJA: Flota a la izquierda para ocupar el tercer lugar de la segunda fila */
+    margin-left: 3.3%;
+    /* MOVIMIENTO DE CAJA: Distancia de separación uniforme con Zooble */
+    margin-top: 30px;
+    /* MOVIMIENTO DE CAJA: Alinea verticalmente el cuadro en la segunda fila */
+    padding: 15px;
+    /* Espacio interno */
+    box-sizing: border-box;
+    /* Medidas exactas */
+}
+
+.gangleimagen {
+    width: 60%;
+    /* Ancho de la imagen de Gangle */
+    height: auto;
+    /* Altura proporcional */
+    margin: auto;
+    /* MOVIMIENTO: Centra la imagen */
+    display: block;
+    /* Comportamiento de bloque */
+}
+
+
+/* ==========================================
+   TERCERA FILA (Caine y futuros elementos)
+   ========================================== */
+
+.caineinformacion {
+    width: 30%;
+    /* Ancho del 30% */
+    background-color: rgb(51, 182, 62);
+    /* Fondo verde para Caine */
+    border: 3px solid;
+    /* Borde sólido */
+    border-radius: 5%;
+    /* Esquinas redondeadas */
+    float: left;
+    /* MOVIMIENTO DE CAJA: Flota a la izquierda */
+    clear: left;
+    /* MOVIMIENTO DE CAJA: ROMPE la segunda fila y obliga a este cuadro a bajar y reiniciar la tercera fila a la izquierda */
+    margin-left: 3.3%;
+    /* MOVIMIENTO DE CAJA: Alineación izquierda uniforme */
+    margin-top: 30px;
+    /* MOVIMIENTO DE CAJA: Separa el cuadro verticalmente hacia abajo de la segunda fila */
+    padding: 15px;
+    /* Espacio interno */
+    box-sizing: border-box;
+    /* Medidas exactas */
+}
+
+.caineimagen {
+    width: 60%;
+    /* Ancho de la imagen de Caine */
+    height: auto;
+    /* Altura proporcional */
+    margin: auto;
+    /* MOVIMIENTO: Centra la imagen */
+    display: block;
+    /* Comportamiento de bloque */
+}
+
+
+/* ==========================================
+   LISTA DE EPISODIOS
+   ========================================== */
+
+.listaepisodios {
+    width: 30%;
+    /* Ancho del 30% para mantener la estructura de la rejilla */
+    background-color: bisque;
+    /* Color de fondo beige/crema */
+    border: 3px solid;
+    /* Borde sólido de 3px */
+    border-radius: 5%;
+    /* Esquinas redondeadas */
+    float: left;
+    /* MOVIMIENTO DE CAJA: Flota a la izquierda para ubicarse al lado de Caine en la tercera fila */
+    margin-left: 3.3%;
+    /* MOVIMIENTO DE CAJA: Distancia de separación uniforme respecto a Caine */
+    margin-top: 30px;
+    /* MOVIMIENTO DE CAJA: Alinea verticalmente el cuadro en la tercera fila */
+    padding: 15px;
+    /* Espacio interno */
+    box-sizing: border-box;
+    /* Medidas exactas */
+}
+
+@font-face {
+    font-family: 'fuente1';
+    /* El nombre que tú quieras darle */
+    src: url('../fonts/Jacquard24-Regular.ttf') format('truetype');
+}
+
+/*
+h3 {
+    font-family: 'fuente1', sans-serif;
+}
+    */
